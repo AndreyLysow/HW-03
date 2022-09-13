@@ -1,0 +1,181 @@
+
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color:rgba(14, 105, 190, 0.842);
+  font-size: 2.8rem;
+  font-weight: 900;
+ 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: rgba(212, 208, 203, 0.986);
+  background: url('https://neucentrix.telkomdigitalsolution.co/storage/upload/PEUFO5AHtwUG3ravAn3yV9QdytWwjsKPDuYRNpvR.jpg') bottom no-repeat;
+  background-size: cover;
+
+}
+
+.title1 {
+  color:white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+}
+
+.title1_1 {
+  color:rgb(192, 206, 220);
+  font-size: 2.8rem;
+   font-weight: 900;
+  line-height: 2rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.4rem;
+}
+
+.title2 {
+  color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 24px;
+ }
+
+ .title3 {
+  color: rgb(18, 9, 99);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 24px;
+ }
+
+ .title4 {
+  color: rgb(18, 9, 99);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 24px;
+  text-decoration: none;
+ }
+
+.links {
+  color: rgb(3, 61, 61);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 13px;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 60px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+footer .links {
+  margin-bottom: 50px;
+}
+
+footer .links > a  {
+  color: rgb(22, 22, 92);  
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ .news {
+  background-color: rgb(179, 206, 230);
+  padding: 50px 0 32px;
+ }
+
+ article {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  border-bottom: 1px solid rgba(146, 165, 207, 0.603);
+ }
+
+ article a {
+  color: rgb(16, 2, 49);
+  text-decoration: none;
+ }
+
+ article a:hover {
+  color: blue;
+ }
+
+ .illumination:hover {
+  color: rgb(209, 12, 12);
+ }
+
+ article h2 {
+  font-family:'Roboto';
+  font-weight: 500;
+  font-style: italic;
+  /* color: brown; */
+  margin-bottom: 5px;
+ }
+
+ .article-meta {
+  color: rgb(74, 20, 175);
+  margin-bottom: 5px;
+ }
+
+ article img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+ }
+
+ section img {
+  width:80%;
+  height: auto;
+  object-fit: contain;
+  margin:  3% 10%;
+ }
+
+ q {
+  color: brown;
+ }
+
+.New::before {
+    content: "NEW";
+    color: rgb(231, 27, 12);
+    font-weight: 900;
+    font-style: italic;
+}
+
+ul li::marker {
+  color: rgb(10, 10, 155);
+}
+
+ol li::marker {
+  color:rgb(230, 10, 21)
+}
+  
+
+
+dialog {
+  width: 300px;
+}
+
+article:nth-child(2n+1) {
+  background: rgba(217, 216, 241, 0.952);
+}
+
+/* a:visited {
+  color: rgb(255, 0, 234);
+  } */
+
+dialog::backdrop {
+background: rgba(146, 165, 207, 0.603);
+}
