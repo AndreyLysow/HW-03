@@ -12,7 +12,7 @@
 * Web-fonts (Roboto)
 
 ---
-## The project is available on Githab at https://github.com/AndreyLysow
+## The project is available on Githab at https://github.com/AndreyLysow/HW-03
 ---
 
 
